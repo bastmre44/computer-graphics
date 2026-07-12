@@ -4,27 +4,58 @@ fn main() {
     let image_width = 500;
     let image_height = 500;
 
-    let mut new_image = Image::gen_image_color(
-        image_width,
-        image_height,
-        Color::BLACK,
-    );
+    let raw_image = unsafe {
+        raylib::ffi::GenImageColor(
+            image_width,
+            image_height,
+            Color::BLACK,
+        )
+    };
 
-    let pixel_position_x = 100;
-    let pixel_position_y = 100;
+    let mut new_image = unsafe {
+        Image::from_raw(raw_image)
+    };
 
-    new_image.draw_pixel(
-        pixel_position_x,
-        pixel_position_y,
-        Color::WHITE,
-    );
+   
+    let cx1 = 150;
+    let cy1 = 150;
 
-    let output_file_name = "my_first_image.png";
+    for i in -40..=40 {
+       
+        new_image.draw_pixel(cx1 + i, cy1, Color::YELLOW);
+
+       
+        new_image.draw_pixel(cx1, cy1 + i, Color::YELLOW);
+
+        
+        new_image.draw_pixel(cx1 + i, cy1 + i, Color::YELLOW);
+
+        
+        new_image.draw_pixel(cx1 + i, cy1 - i, Color::YELLOW);
+    }
+
+    
+    let cx2 = 330;
+    let cy2 = 300;
+
+    for i in -50..=50 {
+        
+        new_image.draw_pixel(cx2 + i, cy2, Color::PURPLE);
+
+        
+        new_image.draw_pixel(cx2, cy2 + i, Color::PURPLE);
+
+        new_image.draw_pixel(cx2 + i, cy2 + i, Color::PURPLE);
+
+        new_image.draw_pixel(cx2 + i, cy2 - i, Color::PURPLE);
+    }
+
+    let output_file_name = "two_stars.png";
 
     new_image.export_image(output_file_name);
 
     println!(
-        "Image saved successfully as '{}'!",
+        "Estrellas guardadas como '{}'!",
         output_file_name
     );
 }
