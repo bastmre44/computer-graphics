@@ -1,0 +1,1 @@
+C:\Users\Elvir\OneDrive\Desktop\Grafícas\ por\ computadora\computer-graphics\raylib_image_tutorial\target\debug\raylib_image_tutorial.exe: C:\Users\Elvir\OneDrive\Desktop\Grafícas\ por\ computadora\computer-graphics\raylib_image_tutorial\src\main.rs

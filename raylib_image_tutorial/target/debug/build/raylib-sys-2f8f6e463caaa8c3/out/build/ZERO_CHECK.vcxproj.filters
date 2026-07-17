@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Elvir\OneDrive\Desktop\Grafícas por computadora\raylib_image_tutorial\target\debug\build\raylib-sys-2f8f6e463caaa8c3\out\build\CMakeFiles\fd0501b8cf9673a3c6f34a46a0e894cb\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{93B17F0E-3AC4-3133-BD04-D8E9B8D7C649}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

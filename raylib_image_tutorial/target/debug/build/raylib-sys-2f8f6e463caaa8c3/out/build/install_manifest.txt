@@ -1,0 +1,11 @@
+C:/Users/Elvir/OneDrive/Desktop/Grafícas por computadora/raylib_image_tutorial/target/debug/build/raylib-sys-2f8f6e463caaa8c3/out/lib/raylib.lib
+C:/Users/Elvir/OneDrive/Desktop/Grafícas por computadora/raylib_image_tutorial/target/debug/build/raylib-sys-2f8f6e463caaa8c3/out/include/raylib.h
+C:/Users/Elvir/OneDrive/Desktop/Grafícas por computadora/raylib_image_tutorial/target/debug/build/raylib-sys-2f8f6e463caaa8c3/out/include/rcamera.h
+C:/Users/Elvir/OneDrive/Desktop/Grafícas por computadora/raylib_image_tutorial/target/debug/build/raylib-sys-2f8f6e463caaa8c3/out/include/rlgl.h
+C:/Users/Elvir/OneDrive/Desktop/Grafícas por computadora/raylib_image_tutorial/target/debug/build/raylib-sys-2f8f6e463caaa8c3/out/include/raymath.h
+C:/Users/Elvir/OneDrive/Desktop/Grafícas por computadora/raylib_image_tutorial/target/debug/build/raylib-sys-2f8f6e463caaa8c3/out/lib/pkgconfig/raylib.pc
+C:/Users/Elvir/OneDrive/Desktop/Grafícas por computadora/raylib_image_tutorial/target/debug/build/raylib-sys-2f8f6e463caaa8c3/out/lib/cmake/raylib/raylib-config-version.cmake
+C:/Users/Elvir/OneDrive/Desktop/Grafícas por computadora/raylib_image_tutorial/target/debug/build/raylib-sys-2f8f6e463caaa8c3/out/lib/cmake/raylib/raylib-config-version.cmake
+C:/Users/Elvir/OneDrive/Desktop/Grafícas por computadora/raylib_image_tutorial/target/debug/build/raylib-sys-2f8f6e463caaa8c3/out/lib/cmake/raylib/raylib-config.cmake
+C:/Users/Elvir/OneDrive/Desktop/Grafícas por computadora/raylib_image_tutorial/target/debug/build/raylib-sys-2f8f6e463caaa8c3/out/lib/cmake/raylib/raylib-targets.cmake
+C:/Users/Elvir/OneDrive/Desktop/Grafícas por computadora/raylib_image_tutorial/target/debug/build/raylib-sys-2f8f6e463caaa8c3/out/lib/cmake/raylib/raylib-targets-debug.cmake

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Elvir\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\raylib\src\raudio.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Elvir\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\raylib\src\rcore.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Elvir\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\raylib\src\rmodels.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Elvir\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\raylib\src\rshapes.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Elvir\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\raylib\src\rtext.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Elvir\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\raylib\src\rtextures.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Elvir\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\raylib\src\raylib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Elvir\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\raylib\src\rcamera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Elvir\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\raylib\src\rlgl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Elvir\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\raylib\src\raymath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Elvir\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\raylib-sys-6.0.0\raylib\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Users\Elvir\OneDrive\Desktop\Grafícas por computadora\raylib_image_tutorial\target\debug\build\raylib-sys-2f8f6e463caaa8c3\out\build\raylib\external\glfw\src\glfw.dir\$(Configuration)\context.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Elvir\OneDrive\Desktop\Grafícas por computadora\raylib_image_tutorial\target\debug\build\raylib-sys-2f8f6e463caaa8c3\out\build\raylib\external\glfw\src\glfw.dir\$(Configuration)\init.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Elvir\OneDrive\Desktop\Grafícas por computadora\raylib_image_tutorial\target\debug\build\raylib-sys-2f8f6e463caaa8c3\out\build\raylib\external\glfw\src\glfw.dir\$(Configuration)\input.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Elvir\OneDrive\Desktop\Grafícas por computadora\raylib_image_tutorial\target\debug\build\raylib-sys-2f8f6e463caaa8c3\out\build\raylib\external\glfw\src\glfw.dir\$(Configuration)\monitor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Elvir\OneDrive\Desktop\Grafícas por computadora\raylib_image_tutorial\target\debug\build\raylib-sys-2f8f6e463caaa8c3\out\build\raylib\external\glfw\src\glfw.dir\$(Configuration)\platform.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Elvir\OneDrive\Desktop\Grafícas por computadora\raylib_image_tutorial\target\debug\build\raylib-sys-2f8f6e463caaa8c3\out\build\raylib\external\glfw\src\glfw.dir\$(Configuration)\vulkan.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Elvir\OneDrive\Desktop\Grafícas por computadora\raylib_image_tutorial\target\debug\build\raylib-sys-2f8f6e463caaa8c3\out\build\raylib\external\glfw\src\glfw.dir\$(Configuration)\window.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Elvir\OneDrive\Desktop\Grafícas por computadora\raylib_image_tutorial\target\debug\build\raylib-sys-2f8f6e463caaa8c3\out\build\raylib\external\glfw\src\glfw.dir\$(Configuration)\egl_context.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Elvir\OneDrive\Desktop\Grafícas por computadora\raylib_image_tutorial\target\debug\build\raylib-sys-2f8f6e463caaa8c3\out\build\raylib\external\glfw\src\glfw.dir\$(Configuration)\osmesa_context.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Elvir\OneDrive\Desktop\Grafícas por computadora\raylib_image_tutorial\target\debug\build\raylib-sys-2f8f6e463caaa8c3\out\build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_init.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Elvir\OneDrive\Desktop\Grafícas por computadora\raylib_image_tutorial\target\debug\build\raylib-sys-2f8f6e463caaa8c3\out\build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_monitor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Elvir\OneDrive\Desktop\Grafícas por computadora\raylib_image_tutorial\target\debug\build\raylib-sys-2f8f6e463caaa8c3\out\build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_window.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Elvir\OneDrive\Desktop\Grafícas por computadora\raylib_image_tutorial\target\debug\build\raylib-sys-2f8f6e463caaa8c3\out\build\raylib\external\glfw\src\glfw.dir\$(Configuration)\null_joystick.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Elvir\OneDrive\Desktop\Grafícas por computadora\raylib_image_tutorial\target\debug\build\raylib-sys-2f8f6e463caaa8c3\out\build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_module.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Elvir\OneDrive\Desktop\Grafícas por computadora\raylib_image_tutorial\target\debug\build\raylib-sys-2f8f6e463caaa8c3\out\build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_time.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Elvir\OneDrive\Desktop\Grafícas por computadora\raylib_image_tutorial\target\debug\build\raylib-sys-2f8f6e463caaa8c3\out\build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_thread.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Elvir\OneDrive\Desktop\Grafícas por computadora\raylib_image_tutorial\target\debug\build\raylib-sys-2f8f6e463caaa8c3\out\build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_init.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Elvir\OneDrive\Desktop\Grafícas por computadora\raylib_image_tutorial\target\debug\build\raylib-sys-2f8f6e463caaa8c3\out\build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_joystick.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Elvir\OneDrive\Desktop\Grafícas por computadora\raylib_image_tutorial\target\debug\build\raylib-sys-2f8f6e463caaa8c3\out\build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_monitor.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Elvir\OneDrive\Desktop\Grafícas por computadora\raylib_image_tutorial\target\debug\build\raylib-sys-2f8f6e463caaa8c3\out\build\raylib\external\glfw\src\glfw.dir\$(Configuration)\win32_window.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+    <Object Include="C:\Users\Elvir\OneDrive\Desktop\Grafícas por computadora\raylib_image_tutorial\target\debug\build\raylib-sys-2f8f6e463caaa8c3\out\build\raylib\external\glfw\src\glfw.dir\$(Configuration)\wgl_context.obj">
+      <Filter>Object Libraries</Filter>
+    </Object>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{AEF9635F-5459-3B8A-BCAC-6557A2E7133E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object Libraries">
+      <UniqueIdentifier>{A6DB23CF-0E5E-357A-A5B1-04E5529F00EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{F940A235-D485-30CA-BA9E-DA94D6F892BE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
