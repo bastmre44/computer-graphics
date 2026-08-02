@@ -39,4 +39,4 @@ cargo run
 
 ![Game of Life demo](demo.gif)
 
-Guarda el GIF de la entrega como `demo.gif` en la raiz del repo para que se muestre aqui.
+
