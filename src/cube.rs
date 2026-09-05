@@ -55,6 +55,13 @@ impl RayIntersect for Cube {
             1.0
         };
 
-        Intersect::new(point, normal, near, self.material)
+        let local = point - min;
+        let (u, v) = match hit_axis {
+            0 => (local.z / self.size, local.y / self.size),
+            1 => (local.x / self.size, local.z / self.size),
+            _ => (local.x / self.size, local.y / self.size),
+        };
+
+        Intersect::new(point, normal, near, self.material, u, v)
     }
 }

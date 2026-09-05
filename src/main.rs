@@ -3,6 +3,7 @@ mod cube;
 mod framebuffer;
 mod light;
 mod ray_intersect;
+mod texture;
 
 use color::Color;
 use cube::Cube;
@@ -12,6 +13,7 @@ use nalgebra_glm::{cross, dot, normalize, Vec3};
 use ray_intersect::{Intersect, Material, Object};
 use raylib::prelude::*;
 use std::f32::consts::PI;
+use texture::Texture;
 
 const WIDTH: usize = 640;
 const HEIGHT: usize = 480;
@@ -41,9 +43,10 @@ fn cast_ray(
     let diffuse_intensity = dot(&closest.normal, &light_direction).max(0.0);
     let lighting = AMBIENT + diffuse_intensity * light.intensity;
 
-    closest
-        .material
-        .diffuse
+    let texture_color = closest.material.texture.sample(closest.u, closest.v);
+
+    texture_color
+        .multiply(closest.material.diffuse)
         .multiply(light.color)
         .scale(lighting)
 }
@@ -75,11 +78,16 @@ fn render(framebuffer: &mut Framebuffer, objects: &[Object], light: &Light) {
 fn main() {
     let (mut window, thread) = raylib::init()
         .size(WIDTH as i32, HEIGHT as i32)
-        .title("Ray Tracer Cube - Luz difusa")
+        .title("Ray Tracer Cube - Texturizado")
         .build();
 
     let material = Material {
-        diffuse: Color::new(70, 150, 230),
+        diffuse: Color::new(255, 255, 255),
+        texture: Texture::new(
+            Color::new(35, 120, 190),
+            Color::new(235, 190, 70),
+            6,
+        ),
     };
     let objects: Vec<Object> = vec![Box::new(Cube {
         center: Vec3::new(0.0, 0.0, 0.0),

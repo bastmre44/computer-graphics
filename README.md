@@ -1,6 +1,6 @@
-# Ray Tracer Cube
+# Ray Tracer Cube Texturizado
 
-Cubo renderizado con ray tracing e iluminacion difusa de Lambert.
+Cubo renderizado con ray tracing, textura de cuadros e iluminacion difusa.
 
 ## Ejecutar
 
